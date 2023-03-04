@@ -41,13 +41,14 @@
 // Uncomment your preferred locale. (exactly 1 must be defined)
 // #define LOCALE_EN_GB
 #define LOCALE_EN_US
+// #define LOCALE_zh_CN
 
 // UNITS
 // Select either metric or imperial units
 // https://openweathermap.org/api/one-call-api#data
 // Uncomment your preferred units. (exactly 1 must be defined)
-// #define UNITS_METRIC
-#define UNITS_IMPERIAL
+#define UNITS_METRIC
+// #define UNITS_IMPERIAL
 
 // AIR QUALITY INDEX
 // Seemingly every country uses a different scale for Air Quality Index (AQI).
@@ -60,11 +61,11 @@
 // #define EUROPE_CAQI
 // #define HONG_KONG_AQHI
 // #define INDIA_AQI
-// #define MAINLAND_CHINA_AQI
+#define MAINLAND_CHINA_AQI
 // #define SINGAPORE_PSI
 // #define SOUTH_KOREA_CAI
 // #define UNITED_KINGDOM_DAQI
-#define UNITED_STATES_AQI
+// #define UNITED_STATES_AQI
 
 // WIND
 // The wind direction icon shown to the left of the wind speed can indicate wind
