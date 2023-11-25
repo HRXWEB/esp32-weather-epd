@@ -1,3 +1,12 @@
+# Precautions
+
+项目的一些配置已经经过简单的修改了，可以直接clone下来之后配置platformIO就能烧录到esp32上。
+
+但由于隐私的原因，有几个参数需要配置一下，都在config.cpp文件里面，分别是：
+1. WIFI_SSID
+2. WIFI_PASSWORD
+3. OWM_APIKEY
+
 # ESP32 E-Paper Weather Display
 
 This is a weather display powered by a wifi-enabled ESP32 microcontroller and a 7.5in E-Paper (aka E-ink) display. Current and forecasted weather data is obtained from the OpenWeatherMap API. A sensor provides the display with accurate indoor temperature and humidity.
